@@ -10,7 +10,7 @@ with open('saved_steps.pkl', 'rb') as file:
 st.title("Potato Disease Detection App")
 
 # Drag and drop image upload
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png"])
+uploaded_file = st.file_uploader("Choose an image of potato leaf...", type=["jpg", "png"])
 class_names = ['Potato-Early_blight', 'Potato-Late blight', 'Healthy Potato']
 if uploaded_file is not None:
    # Open and display the image
