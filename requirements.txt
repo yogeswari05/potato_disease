@@ -2,4 +2,3 @@ streamlit
 tensorflow
 matplotlib
 numpy 
-pickle
